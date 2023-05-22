@@ -125,7 +125,7 @@ body{
     height: inherit;
     background: transparent;
     color: #23242a;
-    font-size: 1em;
+    font-size: 16px;
     font-family: cursive;
     padding-left: 10px;
     border-radius: 4px;
@@ -138,10 +138,11 @@ body{
 }
 
 .login__info span{
+
     position: absolute;
     left: 0;
     padding: 15px 10px 10px;
-    font-size: 1em;
+    font-size: 16px;
     font-family: sans-serif;
     color: #8f8f8f;
     pointer-events: none;
@@ -151,7 +152,7 @@ body{
 .login__input:focus ~ span{
     color: #45f3ff;
     transform: translateX(-10px) translateY(-34px);
-    font-size: 0.75em;
+    font-size: 14px;
 }
 
 .login__problem{
@@ -159,8 +160,7 @@ body{
     display: flex;
     align-items: center;
     height: 25px;
-    color: #8f8f8f;
-    font-size: 0.75em;
+    font-size: 14px;
     font-family: sans-serif;
     margin-top: 10px;
 }
@@ -188,9 +188,14 @@ body{
 
 .login__link{
     position: absolute;
+    color: #8f8f8f;
     right: 0;
 }
 .login__link:hover{
     color: #45f3ff;
     cursor: pointer;
+}
+
+.login__problem p{
+    color: #8f8f8f;
 }
