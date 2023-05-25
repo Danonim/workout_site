@@ -217,3 +217,7 @@ body{
     color: #45f3ff;
     cursor: pointer;
 }
+
+.login__problem p{
+    color: #8f8f8f;
+}
