@@ -56,7 +56,7 @@ body{
     overflow: hidden;
 }
 
-.sign_up::before{
+.sign-up::before{
     content: '';
     position: absolute;
     top: -50%;
@@ -67,7 +67,7 @@ body{
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
 }
-.sign_up::after{
+.sign-up::after{
     content: '';
     position: absolute;
     top: -50%;
@@ -89,7 +89,7 @@ body{
     }
 }
 
-.sign_up__form{
+.sign-up__form{
     position: absolute;
     inset: 2px;
     border-radius: 8px;
@@ -100,13 +100,13 @@ body{
     padding: 50px 40px;
 }
 
-.sign_up__header{
+.sign-up__header{
     height: 55px;
     display: flex;
     justify-content: center;
 }
 
-.sign_up__title{
+.sign-up__title{
     color: #45f3ff;
     font-size: 30px;
     font-weight: 500;
@@ -176,7 +176,7 @@ body{
     font-size: 12px;
 }
 
-.sign_up__problem{
+.sign-up__problem{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,7 +187,7 @@ body{
     margin-top: 20px;
 }
 
-.sign_up__continue{
+.sign-up__continue{
     width: inherit;
     height: 45px;
     display: flex;
@@ -196,7 +196,7 @@ body{
     justify-content: center;
 }
 
-.sign_up__continue button{
+.sign-up__continue button{
     background: #45f3ff;
     width: 100px;
     height: inherit;
@@ -204,19 +204,19 @@ body{
     font-weight: 600;
     font-family: sans-serif;
 }
-.sign_up__continue button:active{
+.sign-up__continue button:active{
     transition: 0.1s;
     opacity: 0.8;
 }
 
-.sign_up__link{
+.sign-up__link{
    margin-left: 15px;
 }
-.sign_up__link:hover{
+.sign-up__link:hover{
     color: #45f3ff;
     cursor: pointer;
 }
 
-.sign_up__problem p{
+.sign-up__problem p{
     color: #8f8f8f;
 }
